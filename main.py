@@ -126,11 +126,11 @@ MDScreen:
 """
 
 
-class Myapp(MDApp):
+class MyApp(MDApp):
 	def on_start(self):
 		self.theme_cls.primary_palette = "DeepPurple"
 	def build(self):
 		return Builder.load_string(kv)
 
 if __name__ == "__main__":
-	Myapp().run()
+	MyApp().run()
